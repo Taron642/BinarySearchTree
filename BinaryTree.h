@@ -17,14 +17,14 @@ public:
 	void insertI(const T& data);
 
 	void eraseR(const T& data);
-    void eraseI(const T& data);
+    	void eraseI(const T& data);
 
 	bool findR(const T& data) const;
 	bool findI(const T& data) const;
-    T findMinR() const;
-    T findMinI() const;
-    T findMaxR() const;
-    T findMaxI() const;
+    	T findMinR() const;
+	T findMinI() const;
+    	T findMaxR() const;
+    	T findMaxI() const;
 
 	void inorderR() const;
 	void preorderR() const;
@@ -36,9 +36,9 @@ public:
 	void levelorder() const;
 
 	int countOfNodesR() const;
-    int countOfNodesI() const;
+  	int countOfNodesI() const;
 	int countOfLeavesR() const;
-    int countOfLeavesI() const;
+	int countOfLeavesI() const;
 
 	int heightR() const;
 	int heightI() const;
