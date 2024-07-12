@@ -3,7 +3,7 @@
 template<typename T>
 struct Node
 {
-    Node(int d, Node* l = nullptr, Node* r = nullptr)
+    Node(T d, Node* l = nullptr, Node* r = nullptr)
         :data{d}
         ,left{l}
         ,right{r}
